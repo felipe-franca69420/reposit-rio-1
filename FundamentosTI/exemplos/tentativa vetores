@@ -1,7 +1,8 @@
-Autor: Felipe França
-Descrição: uma tentativa de usar vetores para
-
 #!/bin/bash
+
+#Autor: Felipe França
+#Descrição: uma tentativa de usar vetores
+
 clear
  
 vetor[0]="felipe"
