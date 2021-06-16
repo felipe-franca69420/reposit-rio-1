@@ -1,0 +1,146 @@
+#Autor: Felipe França
+#descrição: nessa atividade eu faço comentarios sobre as funcionalidades das linhas dos códigos a seguir:
+
+
+#while.sh:
+#!/bin/sh						
+INPUT_STRING=”hello”						                                                      #cria a string “input_string” com o valor “hello”
+while [[ $INPUT_STRING != "bye" ]]			                                            	#um while que vai funcionar enquanto o valor de “input_string” não for “bye”
+do					
+  echo "Please type something in (bye to quit)"
+  read INPUT_STRING						                                                         #dá a liberdade do usuario digitar um valor para “input_string”
+  echo "You typed: $INPUT_STRING"		                                                 	#repete o que o usuario digitou
+done							                                                                  		#termina o while
+
+
+
+#while2.sh:
+#!/bin/sh								
+while read input_text			                                      			#começa um while que vai funcionar enquanto lê uma variável “input_text”
+do
+  case $input_text in
+        hello)          echo English    ;;	                        	#se input_text for “hello”, vai dizer “English”
+          howdy)          echo American   ;;                            #se input_text for “howdy”, vai dizer “American”
+        gday)           echo Australian ;;		                            #se input_text for “gday”, vai dizer “Australian”
+        bonjour)        echo French     ;;		                            #se input_text for “bonjour”, vai dizer “french”
+        "guten tag")    echo German     ;;	                              #se input_text for “guten tag”, vai dizer “german”
+        *)  echo Unknown Language: $input_text                            #se input_text for qualquer outra coisa, vai dizer “Unknown Language: ” e repetir o que voce digitou
+
+                ;;
+   esac
+done ​< myfile.txt 					                                  	#termina o while e usa o “myfile.txt” como lista de palavras para funcionar no case acima
+
+myfile.txt:
+this file is called myfile.txt and we are using it as an example input.
+hello					                                                                 	#vai dizer “english”
+gday					                                                                	#vai dizer “Australian”
+bonjour				                                                                	#vai dizer “french”
+hola					                                                                	#vai dizer “Unknown Language: hola”
+
+
+
+
+
+
+
+
+
+
+#talk.sh:
+#!/bin/sh
+
+echo "Please talk to me ..."		                                                          	#diz "Please talk to me ..."	
+while true				                                                                      		#enquanto o comando não trava, vai fazer:
+do
+  read INPUT_STRING		                                                                    	#lê o que o usuario colocar para a variavel “input_string”
+  case $INPUT_STRING in
+	hello)
+		echo "Hello yourself!"		                                                            	#se input_string for hello, vai dizer “Hello yourself!"	
+		;;
+	bye)
+		echo "See you again!"			                                                              #se input_string for bye, vai dizer “See you again!"	
+		break					                                                                          #vai parar o código
+		;;
+	*)
+		echo "Sorry, I don't understand"                                                    	#se input_string for qualquer outra coisa, vai dizer “Sorry, I don't understand"
+		;;
+  	   esac
+done
+echo 
+echo "That's all folks!"			                                                            	#vai dizer "That's all folks!"	
+
+
+
+#pwrd.sh:
+#!/bin/bash
+
+echo "Enter username"		                                                                            	#diz "Enter username"	
+read username				                                                                            	#lê a variavel “username”
+echo "Enter password"			                                                                      	#diz "Enter password"		
+read password					                                                                           #lê a variavel “password”
+
+if [[ $username == "admin" && $password == "secret" ]] 	                                        #se “username” for “admin” e “password” for “secret”, vai continuar o codigo
+then
+        echo "valid user"			                                                                              	#diz “valid user”
+else						                                                                   	#caso as variáveis que o usuario colocou não sejam “admin” e “secret”, vai fazer o seguinte:
+        echo "invalid user"	                                                                              		#diz “invalid user”
+fi
+
+
+ 
+#replace.sh
+#!/bin/bash
+Unix=('Debian' 'Red hat' 'Ubuntu' 'Suse' 'Fedora' 'UTS' 'OpenLinux');	#uma lista de nomes 
+
+echo ${Unix[@]}				                                                              		#fala todos os nomes na lista “Unix”
+echo '_____________'			                                                                		#diz “_____” só para separar
+echo ${Unix[@]/Ubuntu/SCO Unix}                                                           		#diz a lista, mas com “SCO Unix” no lugar de “Ubuntu”
+
+ 
+
+#!/bin/bash
+read -p "Digite um numero:" num			                                                  #lê um numero e armazena em “num”
+res=1							                                                                	#da o valor da variável “res” para 1
+while [ $num -gt 0 ]				                                                            	#enquanto a variavel “num” for maior que 0, vai fazer o seguinte:
+do	
+        res=$((res*num))				                                                      	#a variavel “res” vai mudar para ela mesma vezes a variavel “num”
+        num=$((num-1))					                                                    #a variavel “num” vai mudar para ela mesma menos 1
+done
+echo $res							                                                            #vai dizer o valor da variavel “res”
+
+#fatorial.sh
+#!/bin/bash
+read -p "Digite um numero:" num			                                                      #lê um numero e armazena em “num”
+res=1						                                                                          		#da o valor da variável “res” para 1
+i=0							                                                                                	#da o valor da variável “i” para 0
+while [ $num -gt 0 ]					#enquanto a variável “num” for igual a 0
+do
+        res=$((res*num))				                                                              	#multiplica res por num e armazena em “res”
+        fatorial[$i]=$num				                                                              	#cria a variavel fatorial[i] e faz ela igual a “num”
+        i=$((i+1))					                                                                  	#soma i+1
+        num=$((num-1))				                                                                	#diminui “num”-1
+done
+echo ${fatorial[@]}			                                                                      		#diz todos os valores da variavel “fatorial”
+echo $res					                                                                              		#diz o valor de “res”
+
+
+
+
+
+
+
+ 
+tabuada.sh
+#!/bin/bash
+read -p "Digite um numero para ver sua tabuada: " x	#lê o valor que o usuario der para “x”
+
+for i in $(seq 1 10)								#em uma sequencia de 1 a 10 na variavel i, vai fazer:
+do
+        res[$i]=$(($x*$i))							#multiplica “x” por “i” e armazena na lista “res” como o numero de i
+done
+echo ${res[@]}								#diz todos os valores da variavel “res”
+
+
+
+
+_______________________________________________________________
