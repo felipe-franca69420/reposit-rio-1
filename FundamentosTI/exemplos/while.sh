@@ -1,8 +1,8 @@
-#!/bin/bash
 
 #Autor: Felipe Franca
 #Descrição: testando uma forma de fazer um while onde é preciso digitar algo para parar o while
 
+#!/bin/bash
 clear
  
 i="a"
