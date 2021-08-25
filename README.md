@@ -9,23 +9,22 @@ https://github.com/felipe-franca69420/reposit-rio-1/blob/1a77ec5b064693590fc34d6
 https://github.com/felipe-franca69420/reposit-rio-1/blob/1a77ec5b064693590fc34d68ec0dc8377c55d294/FundamentosTI/exemplos/mediaprecos.sh<h6>
 <h2/>Sobre mim<h2>
 
-Objetivo:
-- Me formar e seguir carreira no ramo da TI
+<h4/>Objetivo:<h4>
+<h6/>- Me formar e seguir carreira no ramo da TI<h6>
 
-Formação:
-- Senai
+<h4/>Formação:<h4>
+<h6/>- Senai
 - Curso técnico integrado
-- 2º ano ensino médio
+- 2º ano ensino médio<h6>
 
-Gostos:
-- Eu gosto de sair com os meus amigos
+<h4/>Gostos:<h4>
+<h6/>- Eu gosto de sair com os meus amigos
 - jogar joguinhos online :D
-- gosto de surfar
+- gosto de surfar<h6>
 
-Qualificações técnicas: 
-
-- Sou fluente em inglês
+<h4/>Qualificações técnicas:<h4> 
+<h6/>- Sou fluente em inglês
 - faço curso de TI no senai
 - bem ativo
 - lidero em trabalhos em grupos
-- fiz um curso de programação
+- fiz um curso de programação<h6>
