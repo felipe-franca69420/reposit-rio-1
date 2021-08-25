@@ -3,7 +3,7 @@
 <h6/>https://github.com/felipe-franca69420/reposit-rio-1/blob/1a77ec5b064693590fc34d68ec0dc8377c55d294/FundamentosTI/exemplos/Jackson/aula1.sh
 https://github.com/felipe-franca69420/reposit-rio-1/blob/1a77ec5b064693590fc34d68ec0dc8377c55d294/FundamentosTI/exemplos/Jackson/aula2.sh
 https://github.com/felipe-franca69420/reposit-rio-1/blob/1a77ec5b064693590fc34d68ec0dc8377c55d294/FundamentosTI/exemplos/Jackson/aula3.sh<h6>
-<h2/>Links Lógica Computacional<h2>
+<h2/>Links Fundamentos de TI<h2>
 <h6/>https://github.com/felipe-franca69420/reposit-rio-1/blob/1a77ec5b064693590fc34d68ec0dc8377c55d294/FundamentosTI/exemplos/exemplo_condi%C3%A7%C3%A3o
 https://github.com/felipe-franca69420/reposit-rio-1/blob/1a77ec5b064693590fc34d68ec0dc8377c55d294/FundamentosTI/exemplos/exemplo_repeti%C3%A7%C3%A3o
 https://github.com/felipe-franca69420/reposit-rio-1/blob/1a77ec5b064693590fc34d68ec0dc8377c55d294/FundamentosTI/exemplos/mediaprecos.sh<h6>
