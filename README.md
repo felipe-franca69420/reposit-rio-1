@@ -3,7 +3,7 @@
   <h2/>Terceiro ano<h2>
 <h6/>https://github.com/felipe-franca69420/reposit-rio-1/blob/2537b29367b8222639dcae94c5ec3621986d71dc/3%C2%BAano/atv1<h6>
   <h4/>Adicionei essa atividade pois ela demonstra o que aprendemos no Android Studio<h4>
-<h6/><h6>
+<h6/>https://github.com/felipe-franca69420/reposit-rio-1/blob/2537b29367b8222639dcae94c5ec3621986d71dc/3%C2%BAano/atv2<h6>
   <h4/>Adicionei essa atividade pois foi quando aprendi funções<h4>
 <h6/><h6>
   <h4/>Adicionei essa atividade pois foi com ela que eu relembrei como fazer as exportações de tabela<h4>
