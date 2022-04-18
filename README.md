@@ -1,6 +1,7 @@
 <h1/>Felipe Jönck França<h1>
   
   <h2/>Terceiro ano<h2>
+  <h3/>Primeiro trimestre<h3>
 <h6/>https://github.com/felipe-franca69420/reposit-rio-1/blob/2537b29367b8222639dcae94c5ec3621986d71dc/3%C2%BAano/atv1<h6>
   <h4/>Adicionei essa atividade pois ela demonstra o que aprendemos no Android Studio<h4>
 <h6/>https://github.com/felipe-franca69420/reposit-rio-1/blob/2537b29367b8222639dcae94c5ec3621986d71dc/3%C2%BAano/atv2<h6>
@@ -11,13 +12,14 @@
   
   <h2/>Segundo ano:<h2>
 <h3/>Links Lógica Computacional<h3>
-<h6/>https://github.com/felipe-franca69420/reposit-rio-1/blob/1a77ec5b064693590fc34d68ec0dc8377c55d294/FundamentosTI/exemplos/Jackson/aula1.sh
-https://github.com/felipe-franca69420/reposit-rio-1/blob/1a77ec5b064693590fc34d68ec0dc8377c55d294/FundamentosTI/exemplos/Jackson/aula2.sh
-https://github.com/felipe-franca69420/reposit-rio-1/blob/1a77ec5b064693590fc34d68ec0dc8377c55d294/FundamentosTI/exemplos/Jackson/aula3.sh<h6>
+<h6/>https://github.com/felipe-franca69420/reposit-rio-1/blob/1a77ec5b064693590fc34d68ec0dc8377c55d294/FundamentosTI/exemplos/Jackson/aula1.sh<h6>
+<h6/>https://github.com/felipe-franca69420/reposit-rio-1/blob/1a77ec5b064693590fc34d68ec0dc8377c55d294/FundamentosTI/exemplos/Jackson/aula2.sh<h6>
+<h6/>https://github.com/felipe-franca69420/reposit-rio-1/blob/1a77ec5b064693590fc34d68ec0dc8377c55d294/FundamentosTI/exemplos/Jackson/aula3.sh<h6>
+  
 <h3/>Links Fundamentos de TI<h3>
-<h6/>https://github.com/felipe-franca69420/reposit-rio-1/blob/1a77ec5b064693590fc34d68ec0dc8377c55d294/FundamentosTI/exemplos/exemplo_condi%C3%A7%C3%A3o
-https://github.com/felipe-franca69420/reposit-rio-1/blob/1a77ec5b064693590fc34d68ec0dc8377c55d294/FundamentosTI/exemplos/exemplo_repeti%C3%A7%C3%A3o
-https://github.com/felipe-franca69420/reposit-rio-1/blob/1a77ec5b064693590fc34d68ec0dc8377c55d294/FundamentosTI/exemplos/mediaprecos.sh<h6>
+<h6/>https://github.com/felipe-franca69420/reposit-rio-1/blob/1a77ec5b064693590fc34d68ec0dc8377c55d294/FundamentosTI/exemplos/exemplo_condi%C3%A7%C3%A3o<h6>
+<h6/>https://github.com/felipe-franca69420/reposit-rio-1/blob/1a77ec5b064693590fc34d68ec0dc8377c55d294/FundamentosTI/exemplos/exemplo_repeti%C3%A7%C3%A3o<h6>
+<h6/>https://github.com/felipe-franca69420/reposit-rio-1/blob/1a77ec5b064693590fc34d68ec0dc8377c55d294/FundamentosTI/exemplos/mediaprecos.sh<h6>
 <h2/>Sobre mim<h2>
 
 <h4/>Objetivo:<h4>
